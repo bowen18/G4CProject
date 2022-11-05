@@ -13,15 +13,24 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("d") && transform.rotation.y > -0.45)
+        float movement = Input.GetAxis("Horizontal");
+        if (movement>0 && transform.rotation.y > -0.45)
         {
             transform.Rotate(0, -20 * Time.deltaTime,0);
         }
-        else if (Input.GetKey("a") && transform.rotation.y < 0.36)
+        else if (movement<0 && transform.rotation.y < 0.36)
         {
             transform.Rotate(0, 20 * Time.deltaTime,0);
-           
         }
+        // if (Input.GetKey("d") && transform.rotation.y > -0.45)
+        // {
+        //     transform.Rotate(0, -20 * Time.deltaTime,0);
+        // }
+        // else if (Input.GetKey("a") && transform.rotation.y < 0.36)
+        // {
+        //     transform.Rotate(0, 20 * Time.deltaTime,0);
+           
+        // }
         
     }
 }
