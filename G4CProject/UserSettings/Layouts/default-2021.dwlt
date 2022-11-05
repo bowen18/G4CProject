@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 86
+  controlID: 58
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 87
+  controlID: 59
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 88
+  controlID: 60
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,10 +297,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1466
-    y: 73
-    width: 453
-    height: 936
+    x: 1172.8
+    y: 73.6
+    width: 362.19995
+    height: 701.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -346,22 +346,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Ainsl\OneDrive\Desktop\G4CProject\G4CProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 685c0000
-    m_LastClickedID: 23656
-    m_ExpandedIDs: 00000000665c000000ca9a3b
+    m_SelectedIDs: 8e5c0000
+    m_LastClickedID: 23694
+    m_ExpandedIDs: 00000000885c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -417,7 +417,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -519,7 +519,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1cfbffffb05b0000ec5b0000f65b0000285c0000
+      m_ExpandedIDs: e01affffe01dffff1020ffffa225ffff3c2cffff6c2dffff5040ffff5045ffffd2b3ffffeab4ffff0eb6ffff1afbffff145c00001e5c0000505c0000e25f0000ec5f00002e640000766c0000d06d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -768,9 +768,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.4660645, y: 3.2390187, z: -5.4533935}
+    m_Target: {x: 0.308408, y: 4.4245605, z: -1.7553595}
     speed: 2
-    m_Value: {x: -3.4660645, y: 3.2390187, z: -5.4533935}
+    m_Value: {x: 0.308408, y: 4.4245605, z: -1.7553595}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -817,13 +817,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.2216388, y: 0.7321722, z: -0.27959844, w: -0.58028513}
+    m_Target: {x: 0.048003104, y: -0.9121975, z: 0.39139572, w: 0.11194926}
     speed: 2
-    m_Value: {x: -0.22033855, y: 0.73342204, z: -0.27881584, w: -0.5794866}
+    m_Value: {x: 0.047999945, y: -0.91213745, z: 0.39136997, w: 0.11194189}
   m_Size:
-    m_Target: 4.4442697
+    m_Target: 4.251934
     speed: 2
-    m_Value: 4.6536856
+    m_Value: 4.251934
   m_Ortho:
     m_Target: 0
     speed: 2
