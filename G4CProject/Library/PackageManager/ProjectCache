@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638032052637324015
-    m_Hash: 2891438559
+      ticks: 638032092055083278
+    m_Hash: 2584840489
   m_LockFileStatus:
     m_FilePath: C:/Users/hakub/Desktop/G4CProject/G4CProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638032052924434570
-    m_Hash: 3956890126
+      ticks: 638032092055095441
+    m_Hash: 368091525
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
