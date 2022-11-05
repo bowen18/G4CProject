@@ -10,7 +10,7 @@ public class CameraController : MonoBehaviour
     {
         transform.rotation = Quaternion.identity;
     }
-    // Update is called once per frame
+    
     void Update()
     {
         float movement = Input.GetAxis("Horizontal");
@@ -22,15 +22,7 @@ public class CameraController : MonoBehaviour
         {
             transform.Rotate(0, 20 * Time.deltaTime,0);
         }
-        // if (Input.GetKey("d") && transform.rotation.y > -0.45)
-        // {
-        //     transform.Rotate(0, -20 * Time.deltaTime,0);
-        // }
-        // else if (Input.GetKey("a") && transform.rotation.y < 0.36)
-        // {
-        //     transform.Rotate(0, 20 * Time.deltaTime,0);
-           
-        // }
         
     }
+    
 }
