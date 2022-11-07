@@ -171,12 +171,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 723430520}
-  distanceToMove: 0
-  speed: 0
-  doormove: 0
-  doorClosed: 1
-  SlideDirection: {x: 0, y: 0, z: -1}
-  SlideAmount: 3
 --- !u!65 &24787937
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1331,7 +1325,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 442488910}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -33.22, y: 1.5714352, z: -3.71}
+  m_LocalPosition: {x: -24.37, y: 1.5714352, z: -3.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1594,12 +1588,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 756862871}
-  distanceToMove: 0
-  speed: 0
-  doormove: 0
-  doorClosed: 1
-  SlideDirection: {x: 0, y: 0, z: -1}
-  SlideAmount: 3
 --- !u!65 &499295238
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3468,12 +3456,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 1918871128}
-  distanceToMove: 0
-  speed: 0
-  doormove: 0
-  doorClosed: 1
-  SlideDirection: {x: 0, y: 0, z: -1}
-  SlideAmount: 3
 --- !u!1 &1350255820
 GameObject:
   m_ObjectHideFlags: 0
@@ -5407,12 +5389,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 1599385851}
-  distanceToMove: 0
-  speed: 0
-  doormove: 0
-  doorClosed: 1
-  SlideDirection: {x: 0, y: 0, z: -1}
-  SlideAmount: 3
 --- !u!65 &2077282606
 BoxCollider:
   m_ObjectHideFlags: 0
