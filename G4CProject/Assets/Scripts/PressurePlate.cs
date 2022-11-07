@@ -30,6 +30,6 @@ public class PressurePlate : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("Triggerer");
-        door.transform.Translate(0, -3, 0);
+        door.transform.Translate(0, -2, 0);
     }
 }

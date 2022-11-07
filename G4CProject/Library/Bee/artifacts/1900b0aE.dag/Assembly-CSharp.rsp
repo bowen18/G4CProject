@@ -359,6 +359,7 @@
 "Assets/Scripts/CharacterSwap.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PressurePlate.cs"
+"Assets/Scripts/PressurePlateRaise.cs"
 -langversion:9.0
 
 /deterministic
