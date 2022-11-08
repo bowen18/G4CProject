@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Trigger
+  - LevelPlate
+  - Steven
+  - Kai
+  - Zoe
   layers:
   - Default
   - TransparentFX

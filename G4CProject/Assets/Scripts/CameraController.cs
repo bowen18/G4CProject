@@ -14,11 +14,11 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         float movement = Input.GetAxis("Horizontal");
-        if (movement>0 && transform.rotation.y > -0.45)
+        if (movement>0)
         {
             transform.Rotate(0, -20 * Time.deltaTime,0);
         }
-        else if (movement<0 && transform.rotation.y < 0.36)
+        else if (movement<0)
         {
             transform.Rotate(0, 20 * Time.deltaTime,0);
         }
