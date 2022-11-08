@@ -360,6 +360,8 @@
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PressurePlate.cs"
 "Assets/Scripts/PressurePlateRaise.cs"
+"Assets/Scripts/StevenPlate.cs"
+"Assets/Scripts/StevenUnlock.cs"
 -langversion:9.0
 
 /deterministic

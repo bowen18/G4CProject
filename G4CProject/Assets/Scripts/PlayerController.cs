@@ -8,14 +8,14 @@ public class PlayerController : MonoBehaviour
     public Camera camera;
 
   
-    public CharacterSwap Gamemanager;
+    
     
     private NavMeshAgent agent;
 
     // Start is called before the first frame update
     void Start()
     {
-        Gamemanager = GameObject.Find("GameManager").GetComponent<CharacterSwap>();
+        
         agent = GetComponent<NavMeshAgent>();
     }
 
@@ -31,23 +31,5 @@ public class PlayerController : MonoBehaviour
                 agent.SetDestination(hit.point);
             }
         }
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        Debug.Log(other.tag);
-        if(other.tag == "Player")
-        {
-            if (this.enabled == true)
-            {
-                if(other != null)
-                {
-                Debug.Log(other.GetComponent<Transform>());
-                Gamemanager.possibleCharacters.Add(GameObject.Find("Player3").GetComponent<Transform>());
-                }
-            }
-            
-        }
-        
     }
 }
