@@ -32,4 +32,12 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    void OnTriggerExit(Collider coll)
+    {
+        if(coll.gameObject.tag=="TimerStart")
+        {
+            coll.gameObject.GetComponent<Timer>().TimerBegin(); 
+        }
+    }
 }
