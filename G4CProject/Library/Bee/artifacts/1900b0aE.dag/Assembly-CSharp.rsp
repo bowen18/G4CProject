@@ -359,10 +359,9 @@
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CameraZoom.cs"
 "Assets/Scripts/CharacterSwap.cs"
+"Assets/Scripts/HeavyPressurePlate.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PressurePlate.cs"
-"Assets/Scripts/PressurePlateRaise.cs"
-"Assets/Scripts/StevenPlate.cs"
 "Assets/Scripts/StevenUnlock.cs"
 -langversion:9.0
 

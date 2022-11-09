@@ -14,7 +14,7 @@ public class StevenUnlock : MonoBehaviour
     // Update is called once per frame
     void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Zoe")
+        if(other.tag == "Steven")
         {
             if (this.enabled == true)
             {
@@ -24,7 +24,7 @@ public class StevenUnlock : MonoBehaviour
                     if(Gamemanager.possibleCharacters.Count <= 1)
                     {
                         Debug.Log("Unlocked");
-                        Gamemanager.possibleCharacters.Add(GameObject.Find("Steven").GetComponent<Transform>());
+                        Gamemanager.possibleCharacters.Add(GameObject.Find("Zoe").GetComponent<Transform>());
                     }
                 }
             }
