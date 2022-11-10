@@ -8,6 +8,9 @@ public class PressurePlate : MonoBehaviour
     [SerializeField] Transform[] MovePoints;
     public float moveForce = 1f;
 
+    [SerializeField] Material offMaterial;
+    [SerializeField] Material onMaterial;
+
     private int nextPoint = 0;
     private Vector3 EndPoint;
     private Vector3 speed = Vector3.zero;
@@ -45,6 +48,9 @@ public class PressurePlate : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("Triggerer");
+
+        // change color of pressure plate to the activate(on) material
+        GetComponent<MeshRenderer>().material = onMaterial;
 
         // let Update start the move
         triggered = true;

@@ -5,12 +5,14 @@ using UnityEngine;
 public class HeavyPressurePlate : MonoBehaviour
 {
     [SerializeField] Transform MovedObject;
-
     [SerializeField] Transform[] MovePoints;
-    private int nextPoint = 0;
-    
+
     public float moveForce = 1f;
 
+    [SerializeField] Material offMaterial;
+    [SerializeField] Material onMaterial;
+
+    private int nextPoint = 0;
     private Vector3 EndPoint;
     private Vector3 speed = Vector3.zero;
 
@@ -33,6 +35,9 @@ public class HeavyPressurePlate : MonoBehaviour
         Debug.Log("Triggerer");
         if(other.tag == "Zoe")
         {
+            // change color of pressure plate to the activate(on) material
+            GetComponent<MeshRenderer>().material = onMaterial;
+
             // makes "EndPoint" the desired point to move to
             // "MovePoints[]" is a collection of GameObjects positions
             EndPoint = MovePoints[nextPoint].position;
