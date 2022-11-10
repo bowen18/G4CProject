@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] GameObject controlLight;
+    [SerializeField] Animator spriteObject;
     public Camera camera;
 
   
@@ -14,7 +15,6 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
         agent = GetComponent<NavMeshAgent>();
     }
 
@@ -30,6 +30,8 @@ public class PlayerController : MonoBehaviour
                 agent.SetDestination(hit.point);
             }
         }
+
+        UpdateAnimator();
     }
 
     public void turnControlLightOn(bool turnLightOn)
@@ -37,5 +39,11 @@ public class PlayerController : MonoBehaviour
         controlLight.SetActive(turnLightOn);
     }
 
-
+    private void UpdateAnimator()
+    {
+        Vector3 velocity = GetComponent<NavMeshAgent>().velocity;
+        Vector3 localVelocity = transform.InverseTransformDirection(velocity);
+        float speed = localVelocity.z;
+        spriteObject.GetComponent<Animator>().SetFloat("forwardSpeed", speed);
+    }
 }

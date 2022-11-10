@@ -19,6 +19,8 @@ public class AgitateTexture : MonoBehaviour
 
     void FlipSign()
     {
+        rotatespeed.x = -rotatespeed.x;
         rotatespeed.y = -rotatespeed.y;
+        rotatespeed.z = -rotatespeed.z;
     }
 }
